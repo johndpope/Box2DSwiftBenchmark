@@ -22,7 +22,7 @@ misrepresented as being the original software.
 import Foundation
 import Box2D
 
-let count = 50
+let count = 200
 var world: b2World!
 var m_joint: b2RevoluteJoint!
 var m_count = 0

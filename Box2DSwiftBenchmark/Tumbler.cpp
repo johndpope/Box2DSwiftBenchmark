@@ -28,7 +28,7 @@ int32 m_count;
 
 enum
 {
-  e_count = 50
+  e_count = 200
 };
 
 void tumbler_prepare()
