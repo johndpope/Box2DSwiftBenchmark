@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4758FD551A8F0A8F00A3E7B2 /* Box2D.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4758FD541A8F0A8F00A3E7B2 /* Box2D.framework */; };
 		4758FDBD1A8F0B1A00A3E7B2 /* Box2DConfig.cmake in Resources */ = {isa = PBXBuildFile; fileRef = 4758FD581A8F0B1A00A3E7B2 /* Box2DConfig.cmake */; };
 		4758FDBE1A8F0B1A00A3E7B2 /* CMakeLists.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4758FD591A8F0B1A00A3E7B2 /* CMakeLists.txt */; };
 		4758FDBF1A8F0B1A00A3E7B2 /* b2BroadPhase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4758FD5B1A8F0B1A00A3E7B2 /* b2BroadPhase.cpp */; };
@@ -59,11 +58,12 @@
 		4758FDF21A8F0B2800A3E7B2 /* Tumbler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4758FDEE1A8F0B2800A3E7B2 /* Tumbler.cpp */; };
 		4758FDF31A8F0B2800A3E7B2 /* Tumbler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4758FDF01A8F0B2800A3E7B2 /* Tumbler.swift */; };
 		4758FDF41A8F0B2800A3E7B2 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4758FDF11A8F0B2800A3E7B2 /* ViewController.xib */; };
-		4758FDF61A8F0C2500A3E7B2 /* Box2D.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4758FD541A8F0A8F00A3E7B2 /* Box2D.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		479F87811A8EF71600FA34AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479F87801A8EF71600FA34AD /* AppDelegate.swift */; };
 		479F87831A8EF71600FA34AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479F87821A8EF71600FA34AD /* ViewController.swift */; };
 		479F87881A8EF71600FA34AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 479F87871A8EF71600FA34AD /* Images.xcassets */; };
 		479F87971A8EF71600FA34AD /* Box2DSwiftBenchmarkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479F87961A8EF71600FA34AD /* Box2DSwiftBenchmarkTests.swift */; };
+		47DA8F641BAD8813001C475E /* Box2D.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47DA8F601BAD87F4001C475E /* Box2D.framework */; };
+		47DA8F651BAD8813001C475E /* Box2D.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 47DA8F601BAD87F4001C475E /* Box2D.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,13 +77,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		4758FDF71A8F0C2500A3E7B2 /* Embed Frameworks */ = {
+		47DA8F661BAD8814001C475E /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				4758FDF61A8F0C2500A3E7B2 /* Box2D.framework in Embed Frameworks */,
+				47DA8F651BAD8813001C475E /* Box2D.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -91,7 +91,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4758FD541A8F0A8F00A3E7B2 /* Box2D.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Box2D.framework; sourceTree = "<group>"; };
 		4758FD571A8F0B1A00A3E7B2 /* Box2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Box2D.h; sourceTree = "<group>"; };
 		4758FD581A8F0B1A00A3E7B2 /* Box2DConfig.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Box2DConfig.cmake; sourceTree = "<group>"; };
 		4758FD591A8F0B1A00A3E7B2 /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
@@ -200,6 +199,7 @@
 		479F87901A8EF71600FA34AD /* Box2DSwiftBenchmarkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Box2DSwiftBenchmarkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		479F87951A8EF71600FA34AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		479F87961A8EF71600FA34AD /* Box2DSwiftBenchmarkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box2DSwiftBenchmarkTests.swift; sourceTree = "<group>"; };
+		47DA8F601BAD87F4001C475E /* Box2D.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Box2D.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,7 +207,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4758FD551A8F0A8F00A3E7B2 /* Box2D.framework in Frameworks */,
+				47DA8F641BAD8813001C475E /* Box2D.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,7 +400,7 @@
 		479F877D1A8EF71600FA34AD /* Box2DSwiftBenchmark */ = {
 			isa = PBXGroup;
 			children = (
-				4758FD541A8F0A8F00A3E7B2 /* Box2D.framework */,
+				47DA8F601BAD87F4001C475E /* Box2D.framework */,
 				4758FD561A8F0B1A00A3E7B2 /* Box2D */,
 				479F87801A8EF71600FA34AD /* AppDelegate.swift */,
 				479F87821A8EF71600FA34AD /* ViewController.swift */,
@@ -450,7 +450,7 @@
 				479F87771A8EF71600FA34AD /* Sources */,
 				479F87781A8EF71600FA34AD /* Frameworks */,
 				479F87791A8EF71600FA34AD /* Resources */,
-				4758FDF71A8F0C2500A3E7B2 /* Embed Frameworks */,
+				47DA8F661BAD8814001C475E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -485,7 +485,9 @@
 		479F87731A8EF71600FA34AD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "CX5 SOFTWARE";
 				TargetAttributes = {
 					479F877A1A8EF71600FA34AD = {
@@ -635,6 +637,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -649,7 +652,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -687,7 +690,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -710,6 +713,7 @@
 				);
 				INFOPLIST_FILE = Box2DSwiftBenchmark/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cx5software.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Box2DSwiftBenchmark/Box2DBench-Bridging-Header.h";
 			};
@@ -730,9 +734,10 @@
 				);
 				INFOPLIST_FILE = Box2DSwiftBenchmark/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cx5software.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Box2DSwiftBenchmark/Box2DBench-Bridging-Header.h";
-				SWIFT_WHOLE_MODULE_OPTIMIZATION = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 			};
 			name = Release;
 		};
@@ -750,6 +755,7 @@
 				);
 				INFOPLIST_FILE = Box2DSwiftBenchmarkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cx5software.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Box2DSwiftBenchmark.app/Box2DSwiftBenchmark";
 			};
@@ -765,6 +771,7 @@
 				);
 				INFOPLIST_FILE = Box2DSwiftBenchmarkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cx5software.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Box2DSwiftBenchmark.app/Box2DSwiftBenchmark";
 			};

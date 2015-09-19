@@ -45,7 +45,7 @@ class ViewController: UIViewController {
   }
   
   func onStart(sender: UIButton) {
-    println("start")
+    print("start")
     
     startCppButton.enabled = false
     startSwiftButton.enabled = false
@@ -83,10 +83,10 @@ class ViewController: UIViewController {
   }
   
   func onStopCpp() {
-    println("end")
+    print("end")
     displayLink.invalidate()
     let fps = Double(count) / (endTime - startTime)
-    println("fps = \(fps)")
+    print("fps = \(fps)")
     if cppTest {
       tumbler_end()
       cppResultLabel.text = "fps = \(fps)"
